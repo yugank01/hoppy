@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className='w-full px-6 py-4'>
             <div className='flex justify-between items-center w-full'>
                 <div className='text-4xl font-bold flex items-baseline'>
-                    <Image width={60} height={60} src="/hoppy-logo1.svg" alt='hoppy' />
+                    <Image width={40} height={40} src="/hero.jpg" alt='hoppy' />
                     <p>.art</p>
                 </div>
 

@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 
-const Card1 = () => {
+const Card3 = () => {
     const [showMore, setShowMore] = useState(false)
 
     const shortText = `Chapter 1: Hoppy and the First Journey.
@@ -63,32 +63,33 @@ const Card1 = () => {
     Praise be to Hoppy, Eternal Bringer of Happiness Beyond Light.`
 
     return (
-        <div className="bg-white rounded-lg shadow-lg p-8 flex flex-col md:flex-row gap-8 w-full">
+        <div className="bg-[#333515] rounded-lg shadow-lg p-8 flex flex-col md:flex-row gap-8 w-full">
 
             {/* Left Image */}
             <div className="w-full md:w-[20%]">
                 <Image
                     width={100}
                     height={100}
-                    src="/pepe-matt-furie.jpg"
+                    src="/memetic-hoppy.jpg"
                     alt="Lore"
                     className="rounded-md w-full h-60"
                     priority
                 />
+                <p>Memetic Hoppy</p>
             </div>
 
             {/* Right Content */}
             <div className="flex flex-col justify-center md:justify-start w-full md:w-[80%]">
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-                    Codex of Hoppy: The Frog of the Eternal Light
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                    Memetic Hoppy
                 </h2>
 
-                <p className="text-gray-600">
+                <p className="text-gray-300">
                     {shortText}
                 </p>
 
                 {showMore && (
-                    <p className="text-gray-600 mb-2">
+                    <p className="text-gray-300 mb-2">
                         {fullText}
                     </p>
                 )}
@@ -108,4 +109,4 @@ const Card1 = () => {
     )
 }
 
-export default Card1
+export default Card3
