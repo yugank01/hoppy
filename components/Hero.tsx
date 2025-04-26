@@ -26,10 +26,10 @@ const Hero = () => {
                 <div className="w-full md:max-w-[35%]">
                     <Image
                         width={400}
-                        height={600}
-                        src="/hoppy-logo1.svg"
+                        height={500}
+                        src="/hero.jpg"
                         alt="Hoppy Card"
-                        className="rounded-lg shadow-xl"
+                        className="rounded-lg shadow-xl md:h-108"
                         priority
                     />
                 </div>

@@ -21,8 +21,9 @@ const Navbar = () => {
                 </div>
 
                 <ul className='hidden md:flex justify-center items-center gap-8 text-sm tracking-wide'>
-                    <li>Book of Hoppy</li>
-                    <li>Meet Hoppy</li>
+                    <li>Lore</li>
+                    <li>Hoppy's World</li>
+                    <li>Evolution of Hoppy & Pepe</li>
                     <li className='relative group cursor-pointer'>
                         Tools
                         <ul className='absolute left-0 top-full bg-white text-black rounded-md shadow-lg z-10 min-w-[150px] hidden group-hover:flex flex-col'>
@@ -39,18 +40,15 @@ const Navbar = () => {
                         <p>Wiki</p>
                         <BookOpen />
                     </div>
-                    <div className='flex items-center gap-2 cursor-pointer'>
-                        <p>Leaderboard</p>
-                        <Trophy />
-                    </div>
                 </div>
             </div>
 
             {menuOpen && (
                 <div className='md:hidden mt-4 flex flex-col gap-4 text-sm tracking-wide'>
                     <div className='flex flex-col gap-2'>
-                        <span>Book of Hoppy</span>
-                        <span>Meet Hoppy</span>
+                        <span>Lore</span>
+                        <span>Hoppy's World</span>
+                        <span>Evolution of Hoppy & Pepe</span>
 
                         <div className='relative'>
                             <details className='group'>
@@ -63,12 +61,11 @@ const Navbar = () => {
                             </details>
                         </div>
 
-                        <span>Copy Paste</span>
+                        <span>Copy Pasta</span>
                     </div>
 
                     <div className='flex flex-col gap-2 pt-4 border-t border-gray-200'>
                         <span>Wiki</span>
-                        <span>Leaderboard</span>
                     </div>
                 </div>
             )}
