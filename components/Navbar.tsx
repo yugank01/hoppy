@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className='w-full px-6 py-4'>
             <div className='flex justify-between items-center w-full'>
                 <div className='text-4xl font-bold flex items-baseline'>
-                    <Image width={40} height={40} src="/hero.jpg" alt='hoppy' />
+                    <Image width={60} height={60} src="/hoppy-logo1.svg" alt='hoppy' />
                     <p>.art</p>
                 </div>
 
@@ -32,7 +32,8 @@ const Navbar = () => {
                             <li className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Media Kit</li>
                         </ul>
                     </li>
-                    <li>Copy Pasta</li>
+                    <li>Hoppy Comics</li>
+                    <li>NFTs</li>
                 </ul>
 
                 <div className='hidden md:flex items-center gap-8 text-sm tracking-wide'>
@@ -61,7 +62,8 @@ const Navbar = () => {
                             </details>
                         </div>
 
-                        <span>Copy Pasta</span>
+                        <span>Hoppy Comics</span>
+                        <span>NFTs</span>
                     </div>
 
                     <div className='flex flex-col gap-2 pt-4 border-t border-gray-200'>
