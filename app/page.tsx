@@ -1,3 +1,4 @@
+import CardsSection from "@/components/CardsSection";
 import Evolution from "@/components/Evolution";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -8,6 +9,7 @@ export default function Home() {
     <div className="flex flex-col items-start p-6 min-h-screen w-full gap-10">
       <Navbar />
       <Hero />
+      <CardsSection />
       <Evolution />
     </div>
   );
