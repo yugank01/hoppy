@@ -9,7 +9,9 @@ export default function Home() {
     <div className="flex flex-col items-start p-6 min-h-screen w-full gap-10">
       <Navbar />
       <Hero />
+      <div className="w-full h-[2px] bg-[#333515] my-10 md:my-16"></div>
       <CardsSection />
+      <div className="w-full h-[2px] bg-[#333515] my-10 md:my-16"></div>
       <Evolution />
     </div>
   );

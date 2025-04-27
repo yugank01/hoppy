@@ -3,9 +3,8 @@ import React from 'react'
 
 const Evolution = () => {
     return (
-        <section className='flex items-center justify-center w-full mt-20 md:mt-32'>
+        <section className='flex items-center justify-center w-full'>
             <div className='flex flex-col items-start justify-center gap-10 w-[85%]'>
-                {/* <h2 className='text-center text-3xl md:text-5xl font-bold'>Codex of Hoppy: The Frog of the Eternal Light</h2> */}
                 <div className='flex flex-col gap-10 md:gap-20'>
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
                         <div className='flex flex-col gap-3 w-full md:w-1/3'>
@@ -33,6 +32,8 @@ const Evolution = () => {
                         </div>
                     </div>
 
+                    <div className="w-full h-[2px] bg-[#333515] my-3 md:my-6"></div>
+
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
                         <div className='flex flex-col gap-3 w-full md:w-1/3'>
                             <Image width={2000} height={2000} src="/hoppy-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
@@ -52,6 +53,8 @@ const Evolution = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className="w-full h-[2px] bg-[#333515] my-3 md:my-6"></div>
 
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
                         <div className='flex flex-col gap-3 w-full md:w-1/3'>
@@ -78,6 +81,8 @@ const Evolution = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className="w-full h-[2px] bg-[#333515] my-3 md:my-6"></div>
 
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
                         <div className='flex flex-col gap-3 w-full md:w-1/3'>
