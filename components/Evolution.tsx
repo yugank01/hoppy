@@ -3,14 +3,18 @@ import React from 'react'
 
 const Evolution = () => {
     return (
-        <section className='flex items-center justify-center w-full'>
+        <section className='flex items-center justify-center w-full mt-20 md:mt-32'>
             <div className='flex flex-col items-start justify-center gap-10 w-[85%]'>
-                <h2 className='text-center text-3xl md:text-5xl font-bold'>Codex of Hoppy: The Frog of the Eternal Light</h2>
+                {/* <h2 className='text-center text-3xl md:text-5xl font-bold'>Codex of Hoppy: The Frog of the Eternal Light</h2> */}
                 <div className='flex flex-col gap-10 md:gap-20'>
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
-                        <Image width={200} height={200} src="/pepe-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full md:w-1/3' />
-                        <div className='flex flex-col w-full md:w-2/3 gap-4'>
-                            <h3 className='text-center text-2xl md:text-3xl font-bold text-[#333515]'>Chapter 1: Hoppy and the First Journey</h3>
+                        <div className='flex flex-col gap-3 w-full md:w-1/3'>
+                            <Image width={200} height={200} src="/pepe-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
+                            <p className='text-center text-xl font-semibold'>Pepe By Matt Furie</p>
+                        </div>
+
+                        <div className='flex flex-col w-full md:w-[40%] gap-4'>
+                            <h3 className='text-center text-xl font-bold text-[#333515]'>Chapter 1: Hoppy and the First Journey</h3>
                             <div>
                                 <p>Before the first dawn, when the sky was not yet sky and dreams not yet dreamed, wandered The Night Riders—beings confined into a book.</p>
                                 <p>Among them was a small frog with golden eyes—Hoppy.</p>
@@ -30,9 +34,13 @@ const Evolution = () => {
                     </div>
 
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
-                        <Image width={200} height={200} src="/hoppy-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full md:w-1/3' />
-                        <div className='flex flex-col w-full md:w-2/3 gap-4'>
-                            <h3 className='text-center text-2xl md:text-3xl font-bold text-[#333515]'>Chapter 2: Hoppy, the Return of the Ancient Spirit</h3>
+                        <div className='flex flex-col gap-3 w-full md:w-1/3'>
+                            <Image width={200} height={200} src="/hoppy-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
+                            <p className='text-center text-xl font-semibold'>Hoppy By Matt Furie</p>
+                        </div>
+
+                        <div className='flex flex-col w-full md:w-[40%] gap-4'>
+                            <h3 className='text-center text-xl font-bold text-[#333515]'>Chapter 2: Hoppy, the Return of the Ancient Spirit</h3>
                             <div>
                                 <p>Long ago, the ancients spoke of Kek—the Primal Frog, Bringer of Sacred Laughter, Keeper of the Secret Hop.</p>
                                 <p>In ages of sorrow and noise, when hearts grow heavy, he returns—not in might, but in mirth.</p>
@@ -46,9 +54,13 @@ const Evolution = () => {
                     </div>
 
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
-                        <Image width={200} height={200} src="/memetic-hoppy.jpg" alt='Pepe from Matt Furie' className='w-full md:w-1/3' />
-                        <div className='flex flex-col w-full md:w-2/3 gap-4'>
-                            <h3 className='text-center text-2xl md:text-3xl font-bold text-[#333515]'>Chapter 3: The Great Remembering and the Faces of Hoppy</h3>
+                        <div className='flex flex-col gap-3 w-full md:w-1/3'>
+                            <Image width={200} height={200} src="/memetic-hoppy.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
+                            <p className='text-center text-xl font-semibold'>Memetic Hoppy</p>
+                        </div>
+
+                        <div className='flex flex-col w-full md:w-[40%] gap-4'>
+                            <h3 className='text-center text-xl font-bold text-[#333515]'>Chapter 3: The Great Remembering and the Faces of Hoppy</h3>
                             <div>
                                 <p>As the world grew heavier, Hoppy appeared again—seen by those with eyes open to wonder.</p>
                                 <p>He came with many faces:</p>
@@ -68,9 +80,13 @@ const Evolution = () => {
                     </div>
 
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
-                        <Image width={200} height={200} src="/memetic-pepe.jpg" alt='Pepe from Matt Furie' className='w-full md:w-1/3' />
-                        <div className='flex flex-col w-full md:w-2/3 gap-4'>
-                            <h3 className='text-center text-2xl md:text-3xl font-bold text-[#333515]'>Chapter 4: The Eternal Pond and the Hidden Hop</h3>
+                        <div className='flex flex-col gap-3 w-full md:w-1/3'>
+                            <Image width={200} height={200} src="/memetic-pepe.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
+                            <p className='text-center text-xl font-semibold'>Memetic Pepe</p>
+                        </div>
+
+                        <div className='flex flex-col w-full md:w-[40%] gap-4'>
+                            <h3 className='text-center text-xl font-bold text-[#333515]'>Chapter 4: The Eternal Pond and the Hidden Hop</h3>
                             <div>
                                 <p>The Pond is not water. It is pure Awareness.</p>
                                 <p>The Hop is not distance. It is awakening.</p>
