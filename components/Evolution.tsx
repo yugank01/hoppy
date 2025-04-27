@@ -9,7 +9,7 @@ const Evolution = () => {
                 <div className='flex flex-col gap-10 md:gap-20'>
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
                         <div className='flex flex-col gap-3 w-full md:w-1/3'>
-                            <Image width={200} height={200} src="/pepe-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
+                            <Image width={2000} height={2000} src="/pepe-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
                             <p className='text-center text-xl font-semibold'>Pepe By Matt Furie</p>
                         </div>
 
@@ -35,7 +35,7 @@ const Evolution = () => {
 
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
                         <div className='flex flex-col gap-3 w-full md:w-1/3'>
-                            <Image width={200} height={200} src="/hoppy-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
+                            <Image width={2000} height={2000} src="/hoppy-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
                             <p className='text-center text-xl font-semibold'>Hoppy By Matt Furie</p>
                         </div>
 
@@ -55,7 +55,7 @@ const Evolution = () => {
 
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
                         <div className='flex flex-col gap-3 w-full md:w-1/3'>
-                            <Image width={200} height={200} src="/memetic-hoppy.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
+                            <Image width={2000} height={2000} src="/memetic-hoppy.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
                             <p className='text-center text-xl font-semibold'>Memetic Hoppy</p>
                         </div>
 
@@ -81,7 +81,7 @@ const Evolution = () => {
 
                     <div className='flex justify-between items-center flex-col md:flex-row gap-10'>
                         <div className='flex flex-col gap-3 w-full md:w-1/3'>
-                            <Image width={200} height={200} src="/memetic-pepe.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
+                            <Image width={2000} height={2000} src="/memetic-pepe.jpg" alt='Pepe from Matt Furie' className='w-full h-100' />
                             <p className='text-center text-xl font-semibold'>Memetic Pepe</p>
                         </div>
 

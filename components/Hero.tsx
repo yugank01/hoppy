@@ -25,11 +25,11 @@ const Hero = () => {
 
                 <div className="w-full md:max-w-[35%]">
                     <Image
-                        width={400}
+                        width={500}
                         height={500}
                         src="/hero.jpg"
                         alt="Hoppy Card"
-                        className="rounded-lg shadow-xl md:h-108"
+                        className="rounded-lg shadow-xl md:h-fit"
                         priority
                     />
                 </div>
