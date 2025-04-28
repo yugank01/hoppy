@@ -7,7 +7,7 @@ import Card4 from './cards/Card4'
 const CardsSection = () => {
     return (
         <div className='flex flex-col gap-10 justify-center items-center w-full'>
-            <h2 className='text-center text-3xl md:text-5xl font-bold'>Codex of Hoppy: The Frog of the Eternal Light</h2>
+            <h2 className='text-center text-2xl max-w-[50rem] font-bold'>The Meme Codex : Evokes an ancient manuscript that records magic frog memetic entities and their stories. "From the earliest sketches in The Boys Club to the rise of Hoppy, the Meme Codex tells the forgotten lore of digital legends."</h2>
             <div className='flex flex-col md:flex-row items-start justify-center gap-8 w-[85%]'>
                 <Card1 />
                 <Card2 />

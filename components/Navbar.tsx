@@ -20,27 +20,27 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                <ul className='hidden md:flex justify-center items-center gap-8 text-sm tracking-wide'>
-                    <li>Lore</li>
-                    <li>Hoppy's World</li>
-                    <li>Evolution of Hoppy & Pepe</li>
-                    <li className='relative group cursor-pointer'>
+                <div className='hidden md:flex justify-center items-center gap-8 text-sm tracking-wide'>
+                    <button className='cursor-pointer'>Lore</button>
+                    <button className='cursor-pointer'>Hoppy's World</button>
+                    <button className='cursor-pointer'>Evolution of Hoppy & Pepe</button>
+                    <div className='relative group cursor-pointer'>
                         Tools
-                        <ul className='absolute left-0 top-full bg-white text-black rounded-md shadow-lg z-10 min-w-[150px] hidden group-hover:flex flex-col'>
-                            <li className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Meme Gallery</li>
-                            <li className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Meme Generator</li>
-                            <li className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Media Kit</li>
-                        </ul>
-                    </li>
-                    <li>Hoppy Comics</li>
-                    <li>NFTs</li>
-                </ul>
+                        <div className='absolute left-0 top-full bg-white text-black rounded-md shadow-lg z-10 min-w-[150px] hidden group-hover:flex flex-col'>
+                            <button className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Meme Gallery</button>
+                            <button className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Meme Generator</button>
+                            <button className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Media Kit</button>
+                        </div>
+                    </div>
+                    <button className='cursor-pointer'>Hoppy Comics</button>
+                    <button className='cursor-pointer'>NFTs</button>
+                </div>
 
                 <div className='hidden md:flex items-center gap-8 text-sm tracking-wide'>
-                    <div className='flex items-center gap-2 cursor-pointer'>
-                        <p>Wiki</p>
+                    <button className='flex items-center gap-2 cursor-pointer'>
+                        <span>Wiki</span>
                         <BookOpen />
-                    </div>
+                    </button>
                 </div>
             </div>
 
