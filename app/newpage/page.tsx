@@ -4,8 +4,9 @@ import Image from 'next/image'
 const page = () => {
     return (
         <section className='flex items-center justify-center w-full my-16'>
-            <div className='flex items-start justify-center gap-10 w-[95%]'>
-                <div className='flex gap-24 w-full'>
+            <div className='flex items-center justify-center flex-col gap-10 w-[95%]'>
+                <h2 className='text-3xl md:text-5xl font-bold'>Codex of Hoppy: The Frog of the Eternal Light</h2>
+                <div className='flex gap-20 w-full'>
                     <div className='flex items-center flex-col gap-10 md:gap-40 w-[25%]'>
                         <div className='flex flex-col gap-3 w-full'>
                             <Image width={2000} height={2000} src="/pepe-matt-furie.jpg" alt='Pepe from Matt Furie' className='w-full h-72' />
