@@ -14,8 +14,8 @@ export default function Home() {
         <Image width={1000} height={1000} src="/codex-of-hoppy.jpg" alt="codex banner" />
       </div>
       <div className="w-full h-[2px] bg-[#333515] my-10 md:my-16"></div>
-      <CardsSection />
-      <div className="w-full h-[2px] bg-[#333515] my-10 md:my-16"></div>
+      {/* <CardsSection /> */}
+      {/* <div className="w-full h-[2px] bg-[#333515] my-10 md:my-16"></div> */}
       <Evolution />
     </div>
   );

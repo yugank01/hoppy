@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { Menu, X, Search, BookOpen, Trophy } from 'lucide-react' // optional icons if using lucide-react
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -23,7 +24,9 @@ const Navbar = () => {
                 <div className='hidden md:flex justify-center items-center gap-8 text-sm tracking-wide'>
                     <button className='cursor-pointer'>Lore</button>
                     <button className='cursor-pointer'>Hoppy's World</button>
-                    <button className='cursor-pointer'>Evolution of Hoppy & Pepe</button>
+                    <Link href="/codex-of-hoppy">
+                    <button className='cursor-pointer'>Beyond the Frog</button>
+                    </Link>
                     <div className='relative group cursor-pointer'>
                         Tools
                         <div className='absolute left-0 top-full bg-white text-black rounded-md shadow-lg z-10 min-w-[150px] hidden group-hover:flex flex-col'>
