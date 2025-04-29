@@ -25,7 +25,7 @@ const Navbar = () => {
                     <button className='cursor-pointer'>Lore</button>
                     <button className='cursor-pointer'>Hoppy's World</button>
                     <Link href="/codex-of-hoppy">
-                    <button className='cursor-pointer'>Beyond the Frog</button>
+                        <button className='cursor-pointer'>Beyond the Frogs</button>
                     </Link>
                     <div className='relative group cursor-pointer'>
                         Tools
@@ -40,10 +40,12 @@ const Navbar = () => {
                 </div>
 
                 <div className='hidden md:flex items-center gap-8 text-sm tracking-wide'>
-                    <button className='flex items-center gap-2 cursor-pointer'>
-                        <span>Wiki</span>
-                        <BookOpen />
-                    </button>
+                    <Link href="https://docs.google.com/document/d/1BoT9m4C2gqGQnpDe6cX8ijqfhYfVGiiT/edit?usp=sharing&ouid=102376759417973327510&rtpof=true&sd=true" target='_blank' className='cursor-pointer'>
+                        <div className='flex items-center gap-2 cursor-pointer'>
+                            <span>Wiki</span>
+                            <BookOpen />
+                        </div>
+                    </Link>
                 </div>
             </div>
 
@@ -52,7 +54,9 @@ const Navbar = () => {
                     <div className='flex flex-col gap-2'>
                         <span>Lore</span>
                         <span>Hoppy's World</span>
-                        <span>Evolution of Hoppy & Pepe</span>
+                        <Link href="/codex-of-hoppy">
+                            <button className='cursor-pointer'>Beyond the Frogs</button>
+                        </Link>
 
                         <div className='relative'>
                             <details className='group'>
@@ -70,7 +74,7 @@ const Navbar = () => {
                     </div>
 
                     <div className='flex flex-col gap-2 pt-4 border-t border-gray-200'>
-                        <span>Wiki</span>
+                        <Link href="https://docs.google.com/document/d/1BoT9m4C2gqGQnpDe6cX8ijqfhYfVGiiT/edit?usp=sharing&ouid=102376759417973327510&rtpof=true&sd=true" target='_blank'>Wiki</Link>
                     </div>
                 </div>
             )}
