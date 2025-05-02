@@ -25,7 +25,7 @@ const Navbar = () => {
                     <button className='cursor-pointer'>Lore</button>
                     <button className='cursor-pointer'>Hoppy's World</button>
                     <Link href="/codex-of-hoppy">
-                        <button className='cursor-pointer'>Beyond the Frogs</button>
+                        <button className='cursor-pointer'>Evolution of the Frogs</button>
                     </Link>
                     <div className='relative group cursor-pointer'>
                         Tools
@@ -55,7 +55,7 @@ const Navbar = () => {
                         <span>Lore</span>
                         <span>Hoppy's World</span>
                         <Link href="/codex-of-hoppy">
-                            <button className='cursor-pointer'>Beyond the Frogs</button>
+                            <button className='cursor-pointer'>Evolution of the Frogs</button>
                         </Link>
 
                         <div className='relative'>
