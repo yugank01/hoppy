@@ -6,10 +6,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-start p-6 min-h-screen w-full gap-10">
+    <div className="flex flex-col items-center justify-center py-6 min-h-screen w-full gap-10">
       <Navbar />
       <Hero />
-      <div className="w-full h-[2px] bg-[#333515] my-10 md:my-16"></div>
+      <div className="w-[95%] h-[2px] bg-[#333515] my-10 md:my-16"></div>
       {/* <div className="w-full flex justify-center items-center">
         <Image width={1000} height={1000} src="/codex-of-hoppy.jpg" alt="codex banner" />
       </div>
@@ -22,8 +22,8 @@ export default function Home() {
         <Image width={2000} height={2000} src="/lore.PNG" alt="Meet Hoppy" />
       </div>
       {/* <CardsSection /> */}
-      <div className="w-full h-[2px] bg-[#333515] my-10 md:my-16"></div>
-      <Evolution />
+      {/* <div className="w-full h-[2px] bg-[#333515] my-10 md:my-16"></div> */}
+      {/* <Evolution /> */}
     </div>
   );
 }
