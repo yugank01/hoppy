@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className='w-full px-6 py-4'>
             <div className='flex justify-between items-center w-full'>
                 <div className='text-4xl font-bold flex items-baseline'>
-                    <Image width={60} height={60} src="/hoppy-logo1.svg" alt='hoppy' />
+                    <Image width={70} height={70} src="/Wings.gif" alt='hoppy' />
                     <p>.art</p>
                 </div>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='hidden md:flex items-center gap-8 text-sm tracking-wide'>
-                    <Link href="https://docs.google.com/document/d/1BoT9m4C2gqGQnpDe6cX8ijqfhYfVGiiT/edit?usp=sharing&ouid=102376759417973327510&rtpof=true&sd=true" target='_blank' className='cursor-pointer'>
+                    <Link href="/wiki" target='_blank' className='cursor-pointer'>
                         <div className='flex items-center gap-2 cursor-pointer'>
                             <span>Wiki</span>
                             <BookOpen />
@@ -74,7 +74,7 @@ const Navbar = () => {
                     </div>
 
                     <div className='flex flex-col gap-2 pt-4 border-t border-gray-200'>
-                        <Link href="https://docs.google.com/document/d/1BoT9m4C2gqGQnpDe6cX8ijqfhYfVGiiT/edit?usp=sharing&ouid=102376759417973327510&rtpof=true&sd=true" target='_blank'>Wiki</Link>
+                        <Link href="/wiki" target='_blank'>Wiki</Link>
                     </div>
                 </div>
             )}

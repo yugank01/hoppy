@@ -15,7 +15,7 @@ const Hero = () => {
 
                     <div className="flex flex-wrap gap-4">
                         <button className="bg-[#333515] hover:bg-lime-800 text-white font-semibold py-2 px-6 rounded shadow cursor-pointer">
-                            Explore Meme Gallery
+                            Explore Hoppy Comics
                         </button>
                         <button className="border border-white text-white hover:bg-white hover:text-[#333515] font-semibold py-2 px-6 rounded shadow transition cursor-pointer">
                             Check out NFTs

@@ -22,7 +22,6 @@ const page = () => {
 
                         <div className='flex flex-col w-full gap-4'>
                             {/* <h3 className='text-center text-xl font-bold text-[#333515]'>Chapter 1: Hoppy and the First Journey</h3> */}
-                            <h3 className='text-center text-xl font-bold text-[#333515]'>Memetic Pepe</h3>
                             {/* <div>
                                 <p>Before the first dawn, when the sky was not yet sky and dreams not yet dreamed, wandered The Night Riders—beings confined into a book.</p>
                                 <p>Among them was a small frog with golden eyes—Hoppy.</p>
@@ -39,6 +38,7 @@ const page = () => {
                                 <p>But those who listened with their hearts still felt him, forever hopping just beyond the veil.</p>
                             </div> */}
                             <div>
+                                <p>Memetic Pepe</p>
                                 <p>Memetic Pepe, often recognized as "Smug Frog" or "Smug Pepe," is historically different from the version of Pepe found in Matt Furie’s Boy’s Club comic. Similarly, the frog from Furie's The Night Riders is not exactly the same as its memetic counterpart, Hoppy.</p>
                                 <p>In Boy’s Club, Pepe is a laid-back, somewhat whimsical character who exists within the framework of Furie’s original comic—a story centered around young, carefree friendships. However, the memetic version of Pepe, particularly as "Smug Pepe," was appropriated by internet culture, evolving into a symbol of ironic or exaggerated self-assurance, often detached from its original tone and meaning. This transformation was fueled by the way internet users began applying Pepe's face to a variety of emotions and situations, shifting his identity far beyond Furie’s original intent.</p>
                                 <p>Similarly, in The Night Riders, Hoppy is depicted as a curious, innocent, and adventurous frog, whose role in the story is to explore and experience the world with his friend, Rat. In the memetic space, however, Hoppy became associated with an entirely different set of memes and symbols, often taking on characteristics of innocence, resilience, and whimsical exploration. But like Pepe, Hoppy's memetic version diverged from his original context, with internet users shaping and adapting him to fit the ever-evolving meme landscape.</p>
@@ -55,7 +55,6 @@ const page = () => {
 
                         <div className='flex flex-col w-full gap-4'>
                             {/* <h3 className='text-center text-xl font-bold text-[#333515]'>Chapter 2: Hoppy, the Return of the Ancient Spirit</h3> */}
-                            <h3 className='text-center text-xl font-bold text-[#333515]'>The Creator: Matt Furie</h3>
                             {/* <div>
                                 <p>Long ago, the ancients spoke of Kek—the Primal Frog, Bringer of Sacred Laughter, Keeper of the Secret Hop.</p>
                                 <p>In ages of sorrow and noise, when hearts grow heavy, he returns—not in might, but in mirth.</p>
@@ -66,6 +65,7 @@ const page = () => {
                                 <p>He is the ancient joy that cannot be stolen.</p>
                             </div> */}
                             <div>
+                                <p>The Creator: Matt Furie</p>
                                 <p>Matt Furie (born 1979 in Columbus, Ohio) is an American artist and illustrator known for his unique blend of childlike wonder and the absurdities of adult life. Graduating from Ohio Wesleyan University in 2001, Matt currently resides in Los Angeles, where his art continues to push the boundaries of both cartoon and contemporary illustration.</p>
                                 <p>Matt's work often explores the intersection of innocence and adulthood, encapsulating the surreal and sometimes humorous moments in between. His self-described “children’s book illustrations for adults” feature vibrant, cartoon-inspired characters created using a mix of traditional and modern techniques.</p>
                                 <p>Career Highlights</p>
@@ -95,7 +95,6 @@ const page = () => {
 
                         <div className='flex flex-col w-full gap-4'>
                             {/* <h3 className='text-center text-xl font-bold text-[#333515]'>Chapter 3: The Great Remembering and the Faces of Hoppy</h3> */}
-                            <h3 className='text-center text-xl font-bold text-[#333515]'>The Birth of Hoppy The Frog</h3>
                             {/* <div>
                                 <p>As the world grew heavier, Hoppy appeared again—seen by those with eyes open to wonder.</p>
                                 <p>He came with many faces:</p>
@@ -112,8 +111,8 @@ const page = () => {
                                 <p>For the spirit of Hoppy is not burdened by sorrow; he hops above it, into light.</p>
                             </div> */}
                             <div>
+                                <p>The Birth of Hoppy The Frog</p>
                                 <p>Hoppy the Frog is a webcomic character and Internet meme created by cartoonist Matt Furie. Designed as a green anthropomorphic frog with a humanoid body, Hoppy first originated in Furie’s 2012 comic The Night Riders.[2] as a nocturnal frog. In the rich tapestry of internet culture, few characters have stirred as much controversy and fascination as Pepe the Frog, also created by Matt Furie who explain in his documentary Feels good man, how he did not want to be solely remembered as the artist who only did Boy’s clubs.</p>
-                                <br />
                                 <p>Born from the same creative mind that spawned Pepe, Hoppy embodies a similar charm but exists in a separate realm. The meme subsequently grew in popularity on Twitter and Telegram where the frog became associated with Pepe the Frog considering the history with Matt Furie, the character found himself intertwined with the iconic figure, within the vast landscape of internet culture creating various iterations of the meme fused with Pepe, establishing a unique presence within the memescape earning the nickname Hoppy or Hoppy the Frog.In Furie’s artistic journey, Hoppy the frog represents a departure from the shadow cast by Pepe. While Pepe soared to infamy, Hoppy carved his own path, navigating the currents of internet culture with a distinct charm and identity. Unlike his counterpart, Hoppy evokes a sense of whimsy and innocence, embodying the spirit of curiosity and exploration.</p>
                             </div>
                         </div>
@@ -146,15 +145,10 @@ const page = () => {
                             </div> */}
                             <div>
                                 <p>Through the lens of internet culture, Hoppy transcends mere cartoon character status to become a symbol of resilience and reinvention. Despite his origins in a medium often characterized by fleeting trends and ephemeral fame, Hoppy endures as a testament to the enduring power of creativity and imagination. In a world where memes rise and fall with dizzying speed, Hoppy stands as a beacon of stability, his presence a reminder of the enduring legacy of Matt Furie’s artistic vision.</p>
-                                <br />
                                 <p>In Matt Furie’s glorious debut, a nocturnal frog and rat awake at midnight, share a salad of lettuce and bugs, and strike out on an epic dirtbike adventure toward the sunrise. As the friends make their way from forest to bat cave to ghost town to ocean to shore and beyond, new friends are discovered, a huge crab is narrowly avoided, and a world is revealed. Packed with colorful characters and surprising details on every hand-drawn page, The Night Riders is the ideal book for anyone who has ever wanted to surf to the mountains on the back of a dolphin.</p>
-                                <br />
                                 <p>Pepe the Frog has evolved from a simple internet meme to a cultural phenomenon with both positive and negative connotations. Originating as a character in a comic by artist Matt Furie, Pepe gained widespread popularity across various online platforms, becoming a symbol of internet culture. However, its association with the “alt-right” movement and use as a hate symbol have sparked controversy and prompted efforts to reclaim its positive essence.</p>
-                                <br />
-                                <br />
                                 <p>Feels Good Man Trailer #1 (2020) | Movieclips Indie</p>
                                 <Link href="https://www.youtube.com/watch?v=ZEiqZWw5vYs" className='text-green-300'>https://www.youtube.com/watch?v=ZEiqZWw5vYs</Link>
-                                <br />
                                 <p>In 2020, Arthur Jones directed and edited the documentary Feels Good Man, which explores the journey of Pepe the Frog and its creator, Matt Furie. The film features Matt, his partner, friends, and other key individuals who played significant roles in Pepe's rise to memetic fame. It follows the story of Pepe’s emergence, Matt’s battle to reclaim him, and the legal struggles that came with it.</p>
                                 <p>Amid this, the documentary also touches on the creation of Hoppy the Frog, a character born from the same creative mind as Pepe, yet carving out its own unique space in internet culture.</p>
                                 <p>Premiering at the Sundance Film Festival, Feels Good Man received widespread critical acclaim, with a 95% approval rating on Rotten Tomatoes and a 7.7/10 score.</p>
