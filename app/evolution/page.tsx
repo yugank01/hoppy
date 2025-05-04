@@ -5,8 +5,8 @@ import Link from 'next/link'
 const page = () => {
     return (
         <div className='flex items-center justify-center w-full my-16'>
-            <div className='flex justify-center flex-col gap-10 w-[95%]'>
-                <div className='flex flex-col gap-4 justify-center items-center mb-8'>
+            <div className='flex justify-center flex-col gap-4 w-[95%]'>
+                <div className='flex flex-col gap-4 justify-center items-center'>
                     <h3 className='text-2xl md:text-4xl font-serif font-bold'>Evolution of the Frogs</h3>
                     <Image width={500} height={500} src="/meet-hoppy.jpg" alt='evolution' className='rounded-lg' />
                 </div>
