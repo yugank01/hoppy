@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className='hidden md:flex justify-center items-center gap-8 text-sm tracking-wide'>
                     <button className='cursor-pointer'>Lore</button>
                     <button className='cursor-pointer'>Hoppy's World</button>
-                    <Link href="/codex-of-hoppy">
+                    <Link href="/evolution">
                         <button className='cursor-pointer'>Evolution of the Frogs</button>
                     </Link>
                     <div className='relative group cursor-pointer'>
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <div className='flex flex-col gap-2'>
                         <span>Lore</span>
                         <span>Hoppy's World</span>
-                        <Link href="/codex-of-hoppy">
+                        <Link href="/evolution">
                             <button className='cursor-pointer'>Evolution of the Frogs</button>
                         </Link>
 
