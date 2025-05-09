@@ -5,7 +5,7 @@ import Link from 'next/link'
 const page = () => {
     return (
         <div className='flex items-center justify-center w-full my-16'>
-            <div className='flex justify-center flex-col gap-4 w-[95%]'>
+            <div className='flex justify-center flex-col w-[95%]'>
                 <div className='flex flex-col gap-4 justify-center items-center'>
                     <h3 className='text-2xl md:text-4xl font-serif font-bold'>Evolution of the Frogs</h3>
                     <Image width={500} height={500} src="/meet-hoppy.jpg" alt='evolution' className='rounded-lg' />
@@ -15,14 +15,14 @@ const page = () => {
                     <div className="w-[70%] mt-8 p-5 bg-[#63681e] rounded-2xl gap-8 flex flex-col">
                         <p>Memetic Pepe, often recognized as "Smug Frog" or "Smug Pepe," is historically different from the version of Pepe found in Matt Furie’s Boy’s Club comic. Similarly, the frog from Furie's The Night Riders is not exactly the same as its memetic counterpart, Hoppy.</p>
                         <div className='flex justify-center items-center'>
-                            <Image width={200} height={600} src="/memetic-pepe.jpg" alt='evolution' className='rounded-l-lg h-64' />
-                            <Image width={200} height={600} src="/pepe-matt-furie.jpg" alt='evolution' className='rounded-r-lg h-64' />
+                            {/* <Image width={200} height={600} src="/memetic-pepe.jpg" alt='evolution' className='rounded-l-lg h-64' /> */}
+                            <Image width={500} height={1000} src="/evolution1.png" alt='evolution' className='rounded-lg' />
                         </div>
                         <p>In Boy’s Club, Pepe is a laid-back, somewhat whimsical character who exists within the framework of Furie’s original comic—a story centered around young, carefree friendships. However, the memetic version of Pepe, particularly as "Smug Pepe," was appropriated by internet culture, evolving into a symbol of ironic or exaggerated self-assurance, often detached from its original tone and meaning. This transformation was fueled by the way internet users began applying Pepe's face to a variety of emotions and situations, shifting his identity far beyond Furie’s original intent.</p>
-                        <p>Similarly, in The Night Riders, Hoppy is depicted as a curious, innocent, and adventurous frog, whose role in the story is to explore and experience the world with his friend, Rat. In the memetic space, however, Hoppy became associated with an entirely different set of memes and symbols, often taking on characteristics of innocence, resilience, and whimsical exploration. But like Pepe, Hoppy's memetic version diverged from his original context, with internet users shaping and adapting him to fit the ever-evolving meme landscape.</p>
+                        <p>Similarly, in The Night Riders, Hoppy is depicted as a curious, innocent, and adventurous frog, whose role in the story is to explore and experience the world with his friend rat. In the memetic space, however, Hoppy became associated with an entirely different set of memes and symbols, often taking on characteristics of innocence, resilience, and whimsical exploration. But like Pepe, Hoppy's memetic version diverged from his original context, with internet users shaping and adapting him to fit the ever-evolving meme landscape.</p>
                         <div className='flex justify-center items-center'>
-                            <Image width={350} height={600} src="/hoppy-matt-furie.jpg" alt='evolution' className='rounded-l-lg h-60' />
-                            <Image width={350} height={600} src="/memetic-hoppy.jpg" alt='evolution' className='rounded-r-lg h-60' />
+                            {/* <Image width={350} height={600} src="/hoppy-matt-furie.jpg" alt='evolution' className='rounded-l-lg h-60' /> */}
+                            <Image width={650} height={1000} src="/evolution2.png" alt='evolution' className='rounded-lg' />
                         </div>
                         <p>The key difference is that the original characters, both Pepe and Hoppy, were designed with specific personalities and narratives in mind, where their memetic versions emerged through broad user interpretation. They were co-opted by internet culture, often stripped of their original meaning, and transformed into symbols that resonate differently with online communities. The memes associated with these characters are not a direct reflection of Furie’s creation but are instead representations that evolve with the culture that adopts them.</p>
                     </div>

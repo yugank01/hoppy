@@ -1,12 +1,13 @@
 import CardsSection from "@/components/CardsSection";
 import Evolution from "@/components/Evolution";
 import Hero from "@/components/Hero";
+import LoopingVideo from "@/components/LoopingVideo";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center py-6 min-h-screen w-full gap-10">
+    <div className="flex flex-col items-center justify-center pt-6 pb-16 min-h-screen w-full gap-10">
       <Navbar />
       <Hero />
       <div className="w-[95%] h-[2px] bg-[#333515] my-10 md:my-16"></div>
@@ -20,6 +21,12 @@ export default function Home() {
           <p className="text-center max-w-6xl font-semibold">Hoppy the Frog, affectionately known as “Hoppy,” isn’t just a funny camo frog.  He’s a symbol of joy, luck, and unity. Hopping across the globe, Hoppy now leads the HOPPY Token, a feel-good memecoin movement that brings people together and makes the whole world smile.</p>
         </div>
         <Image width={2000} height={2000} src="/lore.PNG" alt="Meet Hoppy" />
+      </div>
+
+      <div className="w-[95%] h-[2px] bg-[#333515] my-10 md:my-16"></div>
+      <div className="w-full flex flex-col justify-center items-center gap-4">
+      <h2 className='text-center text-3xl font-bold'>3D</h2>
+        <LoopingVideo />
       </div>
       {/* <CardsSection /> */}
       {/* <div className="w-full h-[2px] bg-[#333515] my-10 md:my-16"></div> */}
