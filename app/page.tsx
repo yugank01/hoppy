@@ -1,7 +1,7 @@
 import CardsSection from "@/components/CardsSection";
 import Evolution from "@/components/Evolution";
 import Hero from "@/components/Hero";
-import LoopingVideo from "@/components/LoopingVideo";
+import LoopingVideo from "@/components/VideoCardsSection";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
@@ -25,7 +25,6 @@ export default function Home() {
 
       <div className="w-[95%] h-[2px] bg-[#333515] my-10 md:my-16"></div>
       <div className="w-full flex flex-col justify-center items-center gap-4">
-      <h2 className='text-center text-3xl font-bold'>3D</h2>
         <LoopingVideo />
       </div>
       {/* <CardsSection /> */}
