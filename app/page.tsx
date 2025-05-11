@@ -24,6 +24,12 @@ export default function Home() {
       </div>
 
       <div className="w-[95%] h-[2px] bg-[#333515] my-10 md:my-16"></div>
+
+      <div className="w-full flex flex-col gap-6 justify-center items-center">
+        <Image width={2000} height={2000} src="/testo.png" alt="Meet Hoppy" />
+      </div>
+
+      <div className="w-[95%] h-[2px] bg-[#333515] my-10 md:my-16"></div>
       <div className="w-full flex flex-col justify-center items-center gap-4">
         <LoopingVideo />
       </div>
