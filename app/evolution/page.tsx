@@ -16,7 +16,7 @@ const page = () => {
                         <p>Memetic Pepe, often recognized as "Smug Frog" or "Smug Pepe," is historically different from the version of Pepe found in Matt Furie’s Boy’s Club comic. Similarly, the frog from Furie's The Night Riders is not exactly the same as its memetic counterpart, Hoppy.</p>
                         <div className='flex justify-center items-center'>
                             {/* <Image width={200} height={600} src="/memetic-pepe.jpg" alt='evolution' className='rounded-l-lg h-64' /> */}
-                            <Image width={500} height={1000} src="/evolution1.png" alt='evolution' className='rounded-lg' />
+                            <Image width={400} height={1000} src="/evolution1.png" alt='evolution' className='rounded-lg' />
                         </div>
                         <p>In Boy’s Club, Pepe is a laid-back, somewhat whimsical character who exists within the framework of Furie’s original comic—a story centered around young, carefree friendships. However, the memetic version of Pepe, particularly as "Smug Pepe," was appropriated by internet culture, evolving into a symbol of ironic or exaggerated self-assurance, often detached from its original tone and meaning. This transformation was fueled by the way internet users began applying Pepe's face to a variety of emotions and situations, shifting his identity far beyond Furie’s original intent.</p>
                         <p>Similarly, in The Night Riders, Hoppy is depicted as a curious, innocent, and adventurous frog, whose role in the story is to explore and experience the world with his friend rat. In the memetic space, however, Hoppy became associated with an entirely different set of memes and symbols, often taking on characteristics of innocence, resilience, and whimsical exploration. But like Pepe, Hoppy's memetic version diverged from his original context, with internet users shaping and adapting him to fit the ever-evolving meme landscape.</p>
@@ -64,12 +64,24 @@ const page = () => {
 
                     <div className="w-[70%] p-5 bg-[#63681e] rounded-2xl gap-8 flex flex-col">
                         <p>Through the lens of internet culture, Hoppy transcends mere cartoon character status to become a symbol of resilience and reinvention. Despite his origins in a medium often characterized by fleeting trends and ephemeral fame, Hoppy endures as a testament to the enduring power of creativity and imagination. In a world where memes rise and fall with dizzying speed, Hoppy stands as a beacon of stability, his presence a reminder of the enduring legacy of Matt Furie’s artistic vision.</p>
-                        <p>In Matt Furie’s glorious debut, a nocturnal frog and rat awake at midnight, share a salad of lettuce and bugs, and strike out on an epic dirtbike adventure toward the sunrise. As the friends make their way from forest to bat cave to ghost town to ocean to shore and beyond, new friends are discovered, a huge crab is narrowly avoided, and a world is revealed. Packed with colorful characters and surprising details on every hand-drawn page, The Night Riders is the ideal book for anyone who has ever wanted to surf to the mountains on the back of a dolphin.</p>
-                        <p>Pepe the Frog has evolved from a simple internet meme to a cultural phenomenon with both positive and negative connotations. Originating as a character in a comic by artist Matt Furie, Pepe gained widespread popularity across various online platforms, becoming a symbol of internet culture. However, its association with the “alt-right” movement and use as a hate symbol have sparked controversy and prompted efforts to reclaim its positive essence.</p>
+                        <p>Long before Pepe the Frog made his way into comics and internet fame, there were quiet traces of another frog—gentle, curious, and oddly timeless. He wasn’t loud or flashy, but his image lingered in the early days of online culture, like a forgotten dream. When Matt Furie created Pepe, some say it wasn’t entirely from scratch—that somewhere in the background, a softer figure had already planted the seed. Hoppy, later named based on The Night Riders, carries that same spirit: wide-eyed wonder, laid-back charm, a sense of wandering through a world not fully understood. It’s easy to imagine that Hoppy wasn’t just another frog in the story—but the one that quietly inspired it all.</p>
                         <div>
                             <p>Feels Good Man Trailer #1 (2020) | Movieclips Indie</p>
                             <Link href="https://www.youtube.com/watch?v=ZEiqZWw5vYs" target='_blank' className='text-green-300'>https://www.youtube.com/watch?v=ZEiqZWw5vYs</Link>
                         </div>
+                    </div>
+
+                    <div className="w-[70%] p-5 bg-[#63681e] rounded-2xl gap-8 flex flex-col items-center">
+                        <h2 className='text-2xl font-bold'>Music</h2>
+                        <video
+                            className="w-full object-cover rounded-xl"
+                            src="/music.MP4"
+                            autoPlay
+                            // loop
+                            // muted
+                            playsInline
+                            preload="auto"
+                        />
                     </div>
                 </div>
             </div>

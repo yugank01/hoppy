@@ -24,6 +24,7 @@ const Navbar = () => {
                 <div className='hidden md:flex justify-center items-center gap-8 text-sm tracking-wide'>
                     <button className='cursor-pointer'>Hoppy</button>
                     <button className='cursor-pointer'>Lore</button>
+                    <button className='cursor-pointer'>3D</button>
                     <Link href="/evolution">
                         <button className='cursor-pointer'>Evolution of the Frogs</button>
                     </Link>
@@ -54,6 +55,7 @@ const Navbar = () => {
                     <div className='flex flex-col gap-2'>
                         <span>Hoppy</span>
                         <span>Lore</span>
+                        <span>3D</span>
                         <Link href="/evolution">
                             <button className='cursor-pointer'>Evolution of the Frogs</button>
                         </Link>
