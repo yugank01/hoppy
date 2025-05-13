@@ -43,7 +43,7 @@ export default function Home() {
       <div className="w-[95%] h-[2px] bg-[#333515] my-10 md:my-24"></div>
 
       <div className="w-[90%] p-5 bg-[#63681e] rounded-2xl gap-8 flex flex-col items-center">
-        <h2 className='text-2xl font-bold'>Music</h2>
+        <h2 className='text-3xl font-bold'>Music</h2>
         <video
           className="w-full object-cover rounded-xl"
           src="/music.MP4"
