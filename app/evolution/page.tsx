@@ -70,19 +70,6 @@ const page = () => {
                             <Link href="https://www.youtube.com/watch?v=ZEiqZWw5vYs" target='_blank' className='text-green-300'>https://www.youtube.com/watch?v=ZEiqZWw5vYs</Link>
                         </div>
                     </div>
-
-                    <div className="w-[70%] p-5 bg-[#63681e] rounded-2xl gap-8 flex flex-col items-center">
-                        <h2 className='text-2xl font-bold'>Music</h2>
-                        <video
-                            className="w-full object-cover rounded-xl"
-                            src="/music.MP4"
-                            autoPlay
-                            // loop
-                            // muted
-                            playsInline
-                            preload="auto"
-                        />
-                    </div>
                 </div>
             </div>
         </div>

@@ -19,7 +19,9 @@ const comics = [
     { src: '/HoppyComics/hc-15.png', title: 'Comic Fifteen' },
     { src: '/HoppyComics/hc-16.png', title: 'Comic Sixteen' },
     { src: '/HoppyComics/hc-17.png', title: 'Comic Seventeen' },
-    { src: '/HoppyComics/hc-18.png', title: 'Comic Eighnteen' },
+    { src: '/HoppyComics/hc-18.png', title: 'Comic Eighteen' },
+    { src: '/HoppyComics/hc-19.png', title: 'Comic Nineteen' },
+    { src: '/HoppyComics/hc-20.png', title: 'Comic Twenty' },
 ]
 
 const HoppyComics = () => {

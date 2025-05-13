@@ -37,6 +37,8 @@ const Navbar = () => {
                         </div>
                     </div>
                     <button className='cursor-pointer'>Hoppy Comics</button>
+                    <button className='cursor-pointer'>Music</button>
+                    <button className='cursor-pointer'>Book Of Hoppy</button>
                     <button className='cursor-pointer'>NFTs</button>
                 </div>
 
@@ -72,6 +74,8 @@ const Navbar = () => {
                         </div>
 
                         <span>Hoppy Comics</span>
+                        <span>Music</span>
+                        <span>Book Of Hoppy</span>
                         <span>NFTs</span>
                     </div>
 
