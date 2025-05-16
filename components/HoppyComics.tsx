@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const comics = [
@@ -12,16 +13,16 @@ const comics = [
     { src: '/HoppyComics/hc-8.png', title: 'Comic Eight' },
     { src: '/HoppyComics/hc-9.png', title: 'Comic Nine' },
     { src: '/HoppyComics/hc-10.png', title: 'Comic Ten' },
-    { src: '/HoppyComics/hc-11.png', title: 'Comic Eleven' },
-    { src: '/HoppyComics/hc-12.png', title: 'Comic Twelve' },
-    { src: '/HoppyComics/hc-13.png', title: 'Comic Thirteen' },
-    { src: '/HoppyComics/hc-14.png', title: 'Comic Fourteen' },
-    { src: '/HoppyComics/hc-15.png', title: 'Comic Fifteen' },
-    { src: '/HoppyComics/hc-16.png', title: 'Comic Sixteen' },
-    { src: '/HoppyComics/hc-17.png', title: 'Comic Seventeen' },
-    { src: '/HoppyComics/hc-18.png', title: 'Comic Eighteen' },
-    { src: '/HoppyComics/hc-19.png', title: 'Comic Nineteen' },
-    { src: '/HoppyComics/hc-20.png', title: 'Comic Twenty' },
+    // { src: '/HoppyComics/hc-11.png', title: 'Comic Eleven' },
+    // { src: '/HoppyComics/hc-12.png', title: 'Comic Twelve' },
+    // { src: '/HoppyComics/hc-13.png', title: 'Comic Thirteen' },
+    // { src: '/HoppyComics/hc-14.png', title: 'Comic Fourteen' },
+    // { src: '/HoppyComics/hc-15.png', title: 'Comic Fifteen' },
+    // { src: '/HoppyComics/hc-16.png', title: 'Comic Sixteen' },
+    // { src: '/HoppyComics/hc-17.png', title: 'Comic Seventeen' },
+    // { src: '/HoppyComics/hc-18.png', title: 'Comic Eighteen' },
+    // { src: '/HoppyComics/hc-19.png', title: 'Comic Nineteen' },
+    // { src: '/HoppyComics/hc-20.png', title: 'Comic Twenty' },
 ]
 
 const HoppyComics = () => {
@@ -48,6 +49,9 @@ const HoppyComics = () => {
                         </div>
                     ))}
                 </div>
+                <Link href="https://www.instagram.com/hoppyeth/" target='_blank' className='flex justify-center items-center mt-6'>
+                    <button className='bg-[#63681e] py-2 px-6 rounded-xl cursor-pointer'>More Comics</button>
+                </Link>
             </div>
         </section>
     )

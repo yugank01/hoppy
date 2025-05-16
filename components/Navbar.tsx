@@ -22,9 +22,9 @@ const Navbar = () => {
                 </div>
 
                 <div className='hidden md:flex justify-center items-center gap-8 text-sm tracking-wide'>
-                    <button className='cursor-pointer'>Hoppy</button>
-                    <button className='cursor-pointer'>Lore</button>
-                    <button className='cursor-pointer'>3D</button>
+                    <Link href="#hoppy"><button className='cursor-pointer'>Hoppy</button></Link>
+                    <Link href="#lore"><button className='cursor-pointer'>Lore</button></Link>
+                    <Link href="#3D"><button className='cursor-pointer'>3D</button></Link>
                     <Link href="/evolution">
                         <button className='cursor-pointer'>Evolution of the Frogs</button>
                     </Link>
@@ -36,9 +36,10 @@ const Navbar = () => {
                             <button className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Media Kit</button>
                         </div>
                     </div>
-                    <button className='cursor-pointer'>Hoppy Comics</button>
-                    <button className='cursor-pointer'>Music</button>
-                    <button className='cursor-pointer'>Book Of Hoppy</button>
+                    <Link href="#hoppycomics"><button className='cursor-pointer'>Hoppy Comics</button></Link>
+                    <Link href="#music"><button className='cursor-pointer'>Music</button></Link>
+                    <Link href="#bookofhoppy"><button className='cursor-pointer'>Book of Hoppy</button></Link>
+                    <Link href="#hoppybot"><button className='cursor-pointer'>Hoppy Bot</button></Link>
                     <button className='cursor-pointer'>NFTs</button>
                 </div>
 
@@ -76,6 +77,7 @@ const Navbar = () => {
                         <span>Hoppy Comics</span>
                         <span>Music</span>
                         <span>Book Of Hoppy</span>
+                        <span>Hoppy Bot</span>
                         <span>NFTs</span>
                     </div>
 
