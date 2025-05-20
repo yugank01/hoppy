@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = () => {
     return (
@@ -14,12 +15,16 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-wrap gap-4">
-                        <button className="bg-[#333515] hover:bg-lime-800 text-white font-semibold py-2 px-6 rounded shadow cursor-pointer">
-                            Explore Hoppy Comics
-                        </button>
-                        <button className="border border-white text-white hover:bg-white hover:text-[#333515] font-semibold py-2 px-6 rounded shadow transition cursor-pointer">
-                            Check out NFTs
-                        </button>
+                        <Link href="#hoppycomics">
+                            <button className="bg-[#333515] hover:bg-lime-800 text-white font-semibold py-2 px-6 rounded shadow cursor-pointer">
+                                Explore Hoppy Comics
+                            </button>
+                        </Link>
+                        <Link href="/nfts">
+                            <button className="border border-white text-white hover:bg-white hover:text-[#333515] font-semibold py-2 px-6 rounded shadow transition cursor-pointer">
+                                Check out NFTs
+                            </button>
+                        </Link>
                     </div>
                 </div>
 

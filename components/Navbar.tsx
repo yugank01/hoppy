@@ -28,19 +28,19 @@ const Navbar = () => {
                     <Link href="/evolution">
                         <button className='cursor-pointer'>Evolution of the Frogs</button>
                     </Link>
-                    <div className='relative group cursor-pointer'>
+                    <Link href="/tools" className='relative group cursor-pointer'>
                         Tools
                         <div className='absolute left-0 top-full bg-white text-black rounded-md shadow-lg z-10 min-w-[150px] hidden group-hover:flex flex-col'>
                             <button className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Meme Gallery</button>
                             <button className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Meme Generator</button>
                             <button className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>Media Kit</button>
                         </div>
-                    </div>
+                    </Link>
                     <Link href="#hoppycomics"><button className='cursor-pointer'>Hoppy Comics</button></Link>
                     <Link href="#music"><button className='cursor-pointer'>Music</button></Link>
                     <Link href="#bookofhoppy"><button className='cursor-pointer'>Book of Hoppy</button></Link>
                     <Link href="#hoppybot"><button className='cursor-pointer'>Hoppy Bot</button></Link>
-                    <button className='cursor-pointer'>NFTs</button>
+                    <Link href="/nfts"><button className='cursor-pointer'>NFTs</button></Link>
                 </div>
 
                 <div className='hidden md:flex items-center gap-8 text-sm tracking-wide'>
