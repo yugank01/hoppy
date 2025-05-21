@@ -44,6 +44,12 @@ const Navbar = () => {
                 </div>
 
                 <div className='hidden md:flex items-center gap-8 text-sm tracking-wide'>
+                    <Link href="https://hoppy.vip/" target='_blank' className='cursor-pointer'>
+                        <div className='flex items-center gap-2 cursor-pointer'>
+                            <span>Main Site</span>
+                        </div>
+                    </Link>
+
                     <Link href="/wiki" target='_blank' className='cursor-pointer'>
                         <div className='flex items-center gap-2 cursor-pointer'>
                             <span>Wiki</span>
@@ -84,6 +90,7 @@ const Navbar = () => {
                     </div>
 
                     <div className='flex flex-col gap-2 pt-4 border-t border-gray-200'>
+                        <Link href="https://hoppy.vip/" target='_blank'>Main Site</Link>
                         <Link href="/wiki" target='_blank'>Wiki</Link>
                     </div>
                 </div>
