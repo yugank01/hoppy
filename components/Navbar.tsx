@@ -56,29 +56,31 @@ const Navbar = () => {
             {menuOpen && (
                 <div className='md:hidden mt-4 flex flex-col gap-4 text-sm tracking-wide'>
                     <div className='flex flex-col gap-2'>
-                        <span>Hoppy</span>
-                        <span>Lore</span>
-                        <span>3D</span>
+                        <Link href="#hoppy"><button className='cursor-pointer'>Hoppy</button></Link>
+                        <Link href="#lore"><button className='cursor-pointer'>Lore</button></Link>
+                        <Link href="#3D"><button className='cursor-pointer'>3D</button></Link>
                         <Link href="/evolution">
                             <button className='cursor-pointer'>Evolution of the Frogs</button>
                         </Link>
 
-                        <div className='relative'>
-                            <details className='group'>
-                                <summary className='cursor-pointer'>Tools</summary>
-                                <ul className='flex flex-col pl-4 pt-2'>
-                                    <li className='py-1'>Meme Gallery</li>
-                                    <li className='py-1'>Meme Generator</li>
-                                    <li className='py-1'>Media Kit</li>
-                                </ul>
-                            </details>
-                        </div>
+                        <Link href="/tools">
+                            <div className='relative'>
+                                <details className='group'>
+                                    <summary className='cursor-pointer'>Tools</summary>
+                                    <ul className='flex flex-col pl-4 pt-2'>
+                                        <li className='py-1'>Meme Gallery</li>
+                                        <li className='py-1'>Meme Generator</li>
+                                        <li className='py-1'>Media Kit</li>
+                                    </ul>
+                                </details>
+                            </div>
+                        </Link>
 
-                        <span>Hoppy Comics</span>
-                        <span>Music</span>
-                        <span>Book Of Hoppy</span>
-                        <span>Hoppy Bot</span>
-                        <span>NFTs</span>
+                        <Link href="#hoppycomics"><button className='cursor-pointer'>Hoppy Comics</button></Link>
+                        <Link href="#music"><button className='cursor-pointer'>Music</button></Link>
+                        <Link href="#bookofhoppy"><button className='cursor-pointer'>Book of Hoppy</button></Link>
+                        <Link href="#hoppybot"><button className='cursor-pointer'>Hoppy Bot</button></Link>
+                        <Link href="/nfts"><button className='cursor-pointer'>NFTs</button></Link>
                     </div>
 
                     <div className='flex flex-col gap-2 pt-4 border-t border-gray-200'>

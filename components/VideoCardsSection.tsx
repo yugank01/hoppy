@@ -1,4 +1,5 @@
 // components/VideoCardsSection.tsx
+import Link from 'next/link'
 import React from 'react'
 
 const videos = [
@@ -33,6 +34,9 @@ const VideoCardsSection = () => {
                         </div>
                     ))}
                 </div>
+                <Link href="https://www.instagram.com/hoppyeth/" target='_blank' className='flex justify-center items-center mt-6'>
+                    <button className='bg-[#63681e] py-2 px-6 rounded-xl cursor-pointer'>More 3D</button>
+                </Link>
             </div>
         </section>
     )
