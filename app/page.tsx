@@ -10,7 +10,7 @@ import MusicSection from "@/components/MusicSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center pt-6 pb-16 min-h-screen w-full">
+    <div className="flex flex-col items-center justify-center pt-6 min-h-screen w-full">
 
       <Navbar />
 
@@ -83,6 +83,9 @@ export default function Home() {
           <Image width={400} height={2000} src="/hoppy-bot.PNG" className="rounded-xl" alt="Meet Hoppy" />
         </div>
       </section>
+      <div className="pt-12 pb-6">
+        <p>&#169; 2025 by Hoppy. All rights reserved!</p>
+      </div>
     </div>
   );
 }
